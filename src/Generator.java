@@ -26,14 +26,17 @@ public class Generator {
             switch (userOption) {
                 case "1" -> {
                     requestPassword();
+                    System.out.println("Request Password");
                     printMenu();
                 }
                 case "2" -> {
                     checkPassword();
+                    System.out.println("Check Password");
                     printMenu();
                 }
                 case "3" -> {
                     printUsefulInfo();
+                    System.out.println("Print Useful info");
                     printMenu();
                 }
                 case "4" -> printQuitMessage();
